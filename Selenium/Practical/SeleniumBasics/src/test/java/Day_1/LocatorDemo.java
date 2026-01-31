@@ -25,10 +25,10 @@ public class LocatorDemo {
 		// Finding WebElement by partial link text
 //		driver.findElement(By.partialLinkText("Log")).click();
 		
-		
 		// Finding multiple WebElements using className
 		List<WebElement> elements = driver.findElements(By.className("wp-block-separator"));
 		System.out.println(elements.size());
+		
 		// Finding multiple WebElements using tagName
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println(links.size());
