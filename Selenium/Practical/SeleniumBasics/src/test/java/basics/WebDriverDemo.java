@@ -1,4 +1,5 @@
-package Day_1;
+package basics;
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
