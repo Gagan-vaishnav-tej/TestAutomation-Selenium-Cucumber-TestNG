@@ -1,7 +1,6 @@
 package webdriverMethods;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
