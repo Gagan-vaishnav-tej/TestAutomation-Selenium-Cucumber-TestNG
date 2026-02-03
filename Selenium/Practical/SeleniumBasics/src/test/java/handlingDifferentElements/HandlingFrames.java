@@ -42,6 +42,8 @@ public class HandlingFrames {
 		
 		driver.findElement(By.xpath("//a[text()='https://a9t9.com']")).click();
 		driver.findElement(By.xpath("//a[@href='/rpa'][normalize-space()='Browser Automation']")).click();
+		
+		driver.quit();
 	}
 
 }
