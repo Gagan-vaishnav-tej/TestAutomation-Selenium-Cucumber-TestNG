@@ -23,6 +23,8 @@ public class ClickAndSendKeys {
 		WebElement radioButton = driver.findElement(By.xpath("//input[@id='male']"));
 		js.executeScript("arguments[0].click()", radioButton);
 		
+		js.executeScript("document.body.style.zoom='50%' ", "");
+		
 		driver.quit();
 	}
 
