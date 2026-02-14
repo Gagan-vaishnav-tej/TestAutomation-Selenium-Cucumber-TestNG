@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 12 16:13:42 IST 2026</td>
+<td>Started on:</td><td>Fri Feb 13 10:37:12 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (168 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (90 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='assertions.SoftAssertions.softAssertions()'><b>softAssertions</b><br>Test class: assertions.SoftAssertions</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [1000] but found [100]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at assertions.SoftAssertions.softAssertions(SoftAssertions.java:42)
+<td title='dependenciesAndGrouping.DependenciesDemo.search()'><b>search</b><br>Test class: dependenciesAndGrouping.DependenciesDemo</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at dependenciesAndGrouping.DependenciesDemo.search(DependenciesDemo.java:28)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -108,12 +109,13 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1229202732", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1229202732'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [1000] but found [100]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at assertions.SoftAssertions.softAssertions(SoftAssertions.java:42)
+</pre></div><a href='#' onClick='toggleBox("stack-trace671046933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace671046933'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at dependenciesAndGrouping.DependenciesDemo.search(DependenciesDemo.java:28)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -142,26 +144,46 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>assertions.SoftAssertions@6f1de4c7</td></tr>
+<td>dependenciesAndGrouping.DependenciesDemo@128d2484</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='assertions.SoftAssertions.hardAssertions()'><b>hardAssertions</b><br>Test class: assertions.SoftAssertions</td>
-<td><div><pre>java.lang.AssertionError: expected [1000] but found [100]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1431)
-	at org.testng.Assert.assertEquals(Assert.java:1395)
-	at org.testng.Assert.assertEquals(Assert.java:1441)
-	at assertions.SoftAssertions.hardAssertions(SoftAssertions.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+<td title='dependenciesAndGrouping.DependenciesDemo.login()'><b>login</b><br>Test class: dependenciesAndGrouping.DependenciesDemo</td>
+<td></td>
+<td>0</td>
+<td>dependenciesAndGrouping.DependenciesDemo@128d2484</td></tr>
+<tr>
+<td title='dependenciesAndGrouping.DependenciesDemo.openApp()'><b>openApp</b><br>Test class: dependenciesAndGrouping.DependenciesDemo</td>
+<td></td>
+<td>0</td>
+<td>dependenciesAndGrouping.DependenciesDemo@128d2484</td></tr>
+<tr>
+<td title='dependenciesAndGrouping.DependenciesDemo.logout()'><b>logout</b><br>Test class: dependenciesAndGrouping.DependenciesDemo</td>
+<td></td>
+<td>0</td>
+<td>dependenciesAndGrouping.DependenciesDemo@128d2484</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dependenciesAndGrouping.DependenciesDemo.advancedSearch()'><b>advancedSearch</b><br>Test class: dependenciesAndGrouping.DependenciesDemo</td>
+<td><div><pre>java.lang.Throwable: Method dependenciesAndGrouping.DependenciesDemo.advancedSearch() on instance dependenciesAndGrouping.DependenciesDemo@128d2484 depends on not successfully finished methods 
+[dependenciesAndGrouping.DependenciesDemo.search() on instance dependenciesAndGrouping.DependenciesDemo@128d2484
+dependenciesAndGrouping.DependenciesDemo.login() on instance dependenciesAndGrouping.DependenciesDemo@128d2484]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
@@ -180,24 +202,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace752001567", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace752001567'><pre>java.lang.AssertionError: expected [1000] but found [100]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1431)
-	at org.testng.Assert.assertEquals(Assert.java:1395)
-	at org.testng.Assert.assertEquals(Assert.java:1441)
-	at assertions.SoftAssertions.hardAssertions(SoftAssertions.java:16)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+</pre></div><a href='#' onClick='toggleBox("stack-trace888473870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace888473870'><pre>java.lang.Throwable: Method dependenciesAndGrouping.DependenciesDemo.advancedSearch() on instance dependenciesAndGrouping.DependenciesDemo@128d2484 depends on not successfully finished methods 
+[dependenciesAndGrouping.DependenciesDemo.search() on instance dependenciesAndGrouping.DependenciesDemo@128d2484
+dependenciesAndGrouping.DependenciesDemo.login() on instance dependenciesAndGrouping.DependenciesDemo@128d2484]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
@@ -218,7 +227,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>assertions.SoftAssertions@6f1de4c7</td></tr>
+<td>dependenciesAndGrouping.DependenciesDemo@128d2484</td></tr>
 </table><p>
 </body>
 </html>
