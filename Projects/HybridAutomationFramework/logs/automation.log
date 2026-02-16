@@ -1,0 +1,25 @@
+22:07:05.461 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+22:07:06.250 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+22:07:06.254 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+22:07:08.085 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+22:07:11.027 [main] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+22:08:15.485 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+22:08:16.256 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+22:08:16.261 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+22:08:17.883 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+22:08:20.046 [main] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+22:09:58.880 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+22:09:59.752 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+22:09:59.755 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+22:10:01.407 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+22:10:06.716 [main] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+22:12:38.860 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+22:12:40.546 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+22:12:40.551 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+22:12:42.377 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+22:12:45.349 [main] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+22:14:27.117 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+22:14:27.774 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+22:14:27.783 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+22:14:29.363 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+22:14:31.914 [main] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****

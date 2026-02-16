@@ -1,0 +1,46 @@
+2026-02-16 12:38:41,451(HH:mm:ss.SSS) [main] INFO  testCases.TC001_AccountRegistrationTest(36) - ****** Started TC001_AccountRegistrationTest ******
+2026-02-16 12:38:41,908(HH:mm:ss.SSS) [main] INFO  testCases.TC001_AccountRegistrationTest(36) - CLicked on Register Page
+2026-02-16 12:38:41,913(HH:mm:ss.SSS) [main] INFO  testCases.TC001_AccountRegistrationTest(36) - Filling Details
+2026-02-16 12:38:43,141(HH:mm:ss.SSS) [main] INFO  testCases.TC001_AccountRegistrationTest(36) - ****** Finished TC001_AccountRegistrationTest ******
+12:40:18.905 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+12:40:19.342 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+12:40:19.348 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+12:40:21.160 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+12:41:27.387 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+12:41:30.023 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+12:41:30.027 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+12:41:31.532 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+12:49:56.435 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+12:49:56.945 [main] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+12:49:56.948 [main] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+12:49:58.518 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+13:45:07.796 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+13:45:08.527 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+13:45:08.533 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+13:45:08.705 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+13:45:09.249 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+13:45:09.250 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+13:45:11.195 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+13:45:11.275 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+14:30:58.565 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+14:32:27.237 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+14:33:26.303 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+14:34:45.312 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+14:34:46.936 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Finished TC002_LoginTest  *****
+14:37:05.074 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+14:37:06.721 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Finished TC002_LoginTest  *****
+14:37:43.250 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+14:38:24.910 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+15:34:51.509 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Started TC003_LoginTestDDT  *****
+15:34:53.880 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Finished TC003_LoginTestDDT  *****
+15:34:53.899 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Started TC003_LoginTestDDT  *****
+15:35:04.729 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Finished TC003_LoginTestDDT  *****
+15:35:04.742 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Started TC003_LoginTestDDT  *****
+15:35:15.715 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Finished TC003_LoginTestDDT  *****
+15:35:15.747 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Started TC003_LoginTestDDT  *****
+15:35:26.448 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Finished TC003_LoginTestDDT  *****
+15:35:26.470 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Started TC003_LoginTestDDT  *****
+15:35:28.351 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Finished TC003_LoginTestDDT  *****
+15:36:20.306 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Started TC003_LoginTestDDT  *****
+15:36:22.527 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Finished TC003_LoginTestDDT  *****
+15:36:22.542 [TestNG-tests-1] INFO  testCases.TC003_LoginTestDDT - ******  Started TC003_LoginTestDDT  *****
