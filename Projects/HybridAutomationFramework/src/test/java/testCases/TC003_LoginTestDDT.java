@@ -16,16 +16,16 @@ public class TC003_LoginTestDDT extends BaseTest{
 		try
 		{
 			logger.info("******  Started TC003_LoginTestDDT  *****");
-			HomePage homepage= new HomePage(driver);
+			HomePage homepage= new HomePage(getDriver());
 			homepage.clickMyAccount();
 			homepage.clickLogin();
 			
-			LoginPage loginpage = new LoginPage(driver);
+			LoginPage loginpage = new LoginPage(getDriver());
 			loginpage.setEmail(email);
 			loginpage.setPassword(password);
 			loginpage.clickLogin();
 			
-			MyAccountPage myaccountpage = new MyAccountPage(driver);
+			MyAccountPage myaccountpage = new MyAccountPage(getDriver());
 			boolean isDisplayed = myaccountpage.isMyAccountDisplayed();
 			if(expectedResult.equals("Valid"))
 			{

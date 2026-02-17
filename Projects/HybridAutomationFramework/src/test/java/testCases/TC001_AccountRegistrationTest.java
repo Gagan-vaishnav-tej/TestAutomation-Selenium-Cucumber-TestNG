@@ -15,12 +15,12 @@ public class TC001_AccountRegistrationTest extends BaseTest{
 		try
 		{
 			logger.info("****** Started TC001_AccountRegistrationTest ******");
-			HomePage homepage = new HomePage(driver);
+			HomePage homepage = new HomePage(getDriver());
 			homepage.clickMyAccount();
 			homepage.clickRegister();
 			
 			logger.info("CLicked on Register Page");
-			RegisterPage registerPage = new RegisterPage(driver);
+			RegisterPage registerPage = new RegisterPage(getDriver());
 			
 			logger.info("Filling Details");
 			registerPage.setfirstName(randomString());

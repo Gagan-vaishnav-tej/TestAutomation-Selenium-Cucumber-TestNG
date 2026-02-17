@@ -15,16 +15,16 @@ public class TC002_LoginTest extends BaseTest{
 		try
 		{
 			logger.info("******  Started TC002_LoginTest  *****");
-			HomePage homepage= new HomePage(driver);
+			HomePage homepage= new HomePage(getDriver());
 			homepage.clickMyAccount();
 			homepage.clickLogin();
 			
-			LoginPage loginpage = new LoginPage(driver);
+			LoginPage loginpage = new LoginPage(getDriver());
 			loginpage.setEmail(properties.getProperty("email"));
 			loginpage.setPassword(properties.getProperty("password"));
 			loginpage.clickLogin();
 			
-			MyAccountPage myaccountpage = new MyAccountPage(driver);
+			MyAccountPage myaccountpage = new MyAccountPage(getDriver());
 			boolean isDisplayed = myaccountpage.isMyAccountDisplayed();
 			if(isDisplayed) 
 			{
