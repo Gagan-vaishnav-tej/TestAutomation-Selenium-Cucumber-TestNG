@@ -30,3 +30,9 @@
 14:04:50.985 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
 14:04:53.205 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
 14:04:54.732 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Finished TC002_LoginTest  *****
+15:18:35.395 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** Started TC001_AccountRegistrationTest ******
+15:18:36.767 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - CLicked on Register Page
+15:18:36.771 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - Filling Details
+15:18:39.214 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest ******
+15:18:44.853 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Started TC002_LoginTest  *****
+15:18:46.858 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ******  Finished TC002_LoginTest  *****
